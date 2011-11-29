@@ -1,0 +1,125 @@
+//{{NO_DEPENDENCIES}}
+// Microsoft Visual C++ generated include file.
+// Used by tri.rc
+//
+#define IDD_INFOBAR                     103
+#define IDD_GENERAL                     106
+#define IDD_WELL                        107
+#define IDR_MAINFRAME                   128
+#define IDS_OPTION                      129
+#define IDS_FILTER                      130
+#define IDB_LEFT                        134
+#define IDB_MAIN                        135
+#define IDB_TOP                         138
+#define IDB_XMENU                       139
+#define IDR_MODELTYPE                   140
+#define IDD_LEGEND                      141
+#define IDI_OPTIONS                     142
+#define IDD_STAT                        143
+#define IDI_EXCLAIM                     144
+#define IDI_STAT                        145
+#define RC_TEX                          156
+#define IDD_SUPPLY                      157
+#define IDD_STOCK                       158
+#define IDR_LEFTBAR                     183
+#define IDR_TOPBAR                      185
+#define IDR_MAINBAR                     187
+#define IDB_XMALL                       1000
+#define IDB_YBIG                        1001
+#define IDB_BKGND                       1002
+#define IDB_WFONT                       1003
+#define IDB_ZSMALL                      1004
+#define IDB_CELL                        1005
+#define IDB_WMAIN                       1006
+#define IDB_RESTRICT                    1007
+#define IDB_XSMALL                      1008
+#define IDB_LEGEND                      1009
+#define IDB_WSEL                        1010
+#define IDB_FILL                        1011
+#define IDB_YSMALL                      1012
+#define IDB_ANALISE                     1013
+#define IDB_ZBIG                        1014
+#define IDB_LFONT                       1015
+#define IDB_XBIG                        1016
+#define IDE_XDIM                        1017
+#define IDB_RESET                       1018
+#define IDE_YDIM                        1019
+#define IDE_ZDIM                        1020
+#define IDC_PROGRESS                    1021
+#define IDS_LEGEND                      1022
+#define IDC_INV                         1023
+#define IDC_GRAY                        1024
+#define IDC_AUTO                        1025
+#define IDE_ZCOEF                       1026
+#define IDE_XO                          1027
+#define IDE_YO                          1028
+#define IDE_I                           1029
+#define IDE_H                           1030
+#define IDC_XLIST                       1031
+#define IDL_LEGEND                      1032
+#define IDE_R1                          1033
+#define IDC_PARAM                       1034
+#define IDE_R2                          1035
+#define IDC_DATE0                       1036
+#define IDC_DATE1                       1037
+#define IDC_ACTIVE                      1038
+#define IDC_TURN                        1039
+#define IDE_STEP                        1040
+#define IDS_STEP                        1041
+#define IDX_VSFLEX                      1042
+#define IDS_AVER1                       1043
+#define IDS_AVER2                       1044
+#define IDS_TOTAL                       1045
+#define IDS_NUMBER                      1046
+#define IDS_PERCENT                     1047
+#define IDC_DIV                         1048
+#define IDS_MIN                         1049
+#define IDS_MAX                         1050
+#define IDX_VSFLEXGRID                  1051
+#define IDB_STOCK                       1052
+#define IDC_PROGR                       1053
+#define IDC_ENV                         1054
+#define IDS_NUM                         1055
+#define ID_OPTION                       32772
+#define ID_STAT                         32773
+#define ID_RESET_VIEW                   32774
+#define ID_TOP_VIEW                     32775
+#define ID_BOTTOM_VIEW                  32776
+#define ID_LEFT_VIEW                    32777
+#define ID_RIGHT_VIEW                   32778
+#define ID_FRONT_VIEW                   32779
+#define ID_BACK_VIEW                    32780
+#define ID_CELL                         32781
+#define ID_WELL                         32782
+#define ID_PARAM                        32783
+#define ID_CONT                         32784
+#define ID_DATE                         32785
+#define ID_FIRST                        32786
+#define ID_PREV                         32787
+#define ID_NEXT                         32788
+#define ID_LAST                         32789
+#define ID_SPLIT                        32790
+#define ID_SAVE                         32791
+#define ID_LDELETE                      32792
+#define ID_SUPPLY                       32793
+#define ID_LINSERT                      32794
+#define ID_STOCK                        32795
+#define ID_ADDROW                       32796
+#define ID_REMOVEROW                    32797
+#define ID_SELALL                       32798
+#define ID_COPYCELL                     32799
+#define ID_SAVECELL                     32800
+#define ID_PANEL1                       32801
+#define ID_PANEL2                       32802
+#define ID_PANEL3                       32803
+
+// Next default values for new objects
+// 
+#ifdef APSTUDIO_INVOKED
+#ifndef APSTUDIO_READONLY_SYMBOLS
+#define _APS_NEXT_RESOURCE_VALUE        201
+#define _APS_NEXT_COMMAND_VALUE         32794
+#define _APS_NEXT_CONTROL_VALUE         1047
+#define _APS_NEXT_SYMED_VALUE           101
+#endif
+#endif
