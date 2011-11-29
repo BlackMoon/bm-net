@@ -1,0 +1,37 @@
+[in]
+title=Ботвинское, С1бб (Запад 2)
+history=1
+
+[out]
+bin=1
+
+[dim]
+xmin=78000
+ymin=92150
+nx=92
+ny=64
+xstep=25
+ystep=25
+layer=12/ 
+
+[files]
+cont=cont.txt
+struct=zcorn.txt
+wells=well.txt 
+
+[params]
+pcount=5
+p0=Доля коллектора=ntog.txt
+p1=Пористость=m.txt
+p2=x_Проницаемость=k.txt
+p3=z_Проницаемость=kz.txt
+p4=Запасы=stock.txt
+
+[roxar]
+rcount=2
+r0=Давление=p.txt
+r1=Нефтенасыщенность=soil.txt
+
+[date]
+periods=1
+0=01.01.1974
