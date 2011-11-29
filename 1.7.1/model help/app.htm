@@ -1,0 +1,63 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+<Title>Приложение</Title>
+<LINK REL="stylesheet" TYPE="text/css" HREF="style.css"></LINK>
+</HEAD>
+<BODY><H1>Приложение</H1>
+<hr>
+<p align=justify>Объект <b>Приложение</b> вызывает программу <b>Model view</b>. 
+<br>Управление внутренними объектами <b>Model view</b> осуществляется через объект <b>Приложение</b>.</p> 
+<p>В VC вызов осуществляется через:
+<br>
+<font style="font-family: 'Courier New';" face="courier new">
+<br>CApplication app;
+<br>app.CreateDispatch("Model.application");</font></p>
+<p>Функция <b>CreateDispatch</b> создает новый экземпляр <b>Model view.</b></p>
+<p><i>Методы</i>
+<br>
+<br><a href="getgraph.htm">GetGraph</a>
+<br><a href="open.htm">Open</a>
+<br><a href="save.htm">Save</a>
+<br><a href="show.htm">Show</a>
+<br><a href="setlegend.htm">SetLegend</a>
+</p>
+<p><i>Свойства</i>
+<br>
+<br><a href="auto.htm">Auto</a>
+<br><a href="backcolor.htm">BackColor</a>
+<br><a href="cellcolor.htm">CellColor</a>
+<br><a href="labelcolor.htm">LabelColor</a>
+<br><a href="legendgray.htm">LegendGray</a>
+<br><a href="legendinv.htm">LegendInv</a>
+<br><a href="wellcolor.htm">WellColor</a>
+<br><a href="wellcolorfont.htm">WellColorFont</a>
+<br><a href="wellcolorsel.htm">WellColorSel</a>
+<br><a href="wellhfont.htm">WellHFont</a>
+<br><a href="welllabelxoffset.htm">WellLabelXOffset</a>
+<br><a href="welllabelyoffset.htm">WellLabelYOffset</a>
+<br><a href="wellcharset.htm">WellCharsetFont</a>
+<br><a href="wellfacenamefont.htm">WellFacenameFont</a>
+<br><a href="wellh.htm">WellH</a>
+<br><a href="welli.htm">WellI</a>
+<br><a href="wellr1.htm">WellR1</a>
+<br><a href="wellr2.htm">WellR2</a>
+<br><a href="zcoef.htm">ZCoef</a>
+</p>
+<p><b>Пример</b>.
+<br>Запуск приложения и открытие файла модели.
+<br>
+<font style="font-family: 'Courier New';" face="courier new">
+<br>CApplication app;
+<br>if (app.m_lpDispatch == 0)
+<br>{
+<br><img src=px1.gif width=20 height = 1>app.CreateDispatch("Model.application");
+<br>}
+<br>app.Show();
+<br>app.Open(filename);
+<br>app.ReleaseDispatch();
+<br></font>
+</p>
+</BODY>
+</HTML>
