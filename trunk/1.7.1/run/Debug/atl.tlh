@@ -1,0 +1,56 @@
+﻿// Created by Microsoft (R) C/C++ Compiler Version 14.00.50727.42 (495ddb02).
+//
+// d:\geology\bm.net\run\debug\atl.tlh
+//
+// C++ source equivalent of Win32 type library D:\\Geology\\atl\\Debug\\atl.tlb
+// compiler-generated file created 06/06/07 at 11:26:03 - DO NOT EDIT!
+
+#pragma once
+#pragma pack(push, 8)
+
+#include <comdef.h>
+
+//
+// Forward references and typedefs
+//
+
+struct __declspec(uuid("259cd03a-9aac-4eec-84c2-4db4299ace9d"))
+/* LIBID */ __atl;
+struct __declspec(uuid("771bd2e7-9f88-4da5-98d1-8f21644432b1"))
+/* dispinterface */ Iatl;
+struct /* coclass */ CatlDoc;
+
+//
+// Smart pointer typedef declarations
+//
+
+_COM_SMARTPTR_TYPEDEF(Iatl, __uuidof(Iatl));
+
+//
+// Type library items
+//
+
+struct __declspec(uuid("771bd2e7-9f88-4da5-98d1-8f21644432b1"))
+Iatl : IDispatch
+{
+    //
+    // Wrapper methods for error-handling
+    //
+
+    // Methods:
+    HRESULT m1 (
+        long p1,
+        VARIANT_BOOL p2 );
+};
+
+struct __declspec(uuid("6819286f-5905-45f3-8e63-006523756edf"))
+CatlDoc;
+    // [ default ] dispinterface Iatl
+
+//
+// Wrapper method implementations
+//
+
+#include "d:\geology\bm.net\run\debug\atl.tli"
+
+#pragma pack(pop)

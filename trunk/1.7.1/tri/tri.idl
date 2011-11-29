@@ -1,0 +1,70 @@
+// tri.idl
+#include "olectl.h"
+[uuid(BAC9CDCE-FBE5-4B4D-8A91-B8AC61FBEA9D), version(1.0),
+ helpstring("Model view 1.0 Type Library")]
+
+library Model
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+	//  Primary dispatch interface for CApplication	
+	[ uuid(69DF4038-7FDA-447B-BD0D-2E09DD5D298E)]
+	dispinterface IApplication
+	{
+		properties:														
+		[id(1), helpstring("property Auto")] VARIANT_BOOL Auto;		
+		[id(2), helpstring("property LegendGray")] VARIANT_BOOL LegendGray;
+		[id(3), helpstring("property LegendInv")] VARIANT_BOOL LegendInv;
+		[id(4), helpstring("property WellFacenameFont")] BSTR WellFacenameFont;				
+		[id(5), helpstring("property ZCoef")] FLOAT ZCoef;
+		[id(6), helpstring("property BackColor")] LONG BackColor;
+		[id(7), helpstring("property CellColor")] LONG CellColor;
+		[id(8), helpstring("property LabelColor")] LONG LabelColor;				
+		[id(9), helpstring("property WellColor")] LONG WellColor;
+		[id(10), helpstring("property WellColorFont")] LONG WellColorFont;		
+		[id(11), helpstring("property WellColorSel")] LONG WellColorSel;
+		[id(12), helpstring("property WellHFont")] LONG WellHFont;		
+		[id(13), helpstring("property WellLabelXOffset")] LONG WellLabelXOffset;
+		[id(14), helpstring("property WellLabelYOffset")] LONG WellLabelYOffset;
+		[id(15), helpstring("property WellH")] ULONG WellH;
+		[id(16), helpstring("property WellI")] ULONG WellI;
+		[id(17), helpstring("property WellR1")] ULONG WellR1;
+		[id(18), helpstring("property WellR2")] ULONG WellR2;
+		[id(19), helpstring("property WellCharsetFont")] VARIANT WellCharsetFont;				
+		methods:																		
+		[id(20), helpstring("method Show")] void Show();
+		[id(21), helpstring("method GetGraph")] IDispatch* GetGraph();
+		[id(22), helpstring("method Open")] VARIANT_BOOL Open(BSTR FileName, VARIANT_BOOL Read);												
+		[id(23), helpstring("method Save")] void Save(BSTR FileName, VARIANT* DestFormat);				
+		[id(24), helpstring("method SetLegend")] VARIANT_BOOL SetLegend(VARIANT* VariantArray);
+	};
+	//  Class information for CApplication	
+	[ uuid(1024D545-C833-40A5-9281-95017A384973)]
+	coclass Application
+	{
+		[default] dispinterface IApplication;
+	};		
+	//  Primary dispatch interface for CGraph		
+	[ uuid(3ECB516B-24CD-494B-8676-1EB3645EDE16) ]
+	dispinterface IGraph
+	{
+		properties:		
+		methods:		
+		[id(1), helpstring("method BackView")] void BackView();		
+		[id(2), helpstring("method BottomView")] void BottomView();
+		[id(3), helpstring("method FrontView")] void FrontView();
+		[id(4), helpstring("method LeftView")] void LeftView();
+		[id(5), helpstring("method ResetView")] void ResetView();
+		[id(6), helpstring("method RightView")] void RightView();
+		[id(7), helpstring("method TopView")] void TopView();				
+		[id(8), helpstring("method ResetFilter")] SCODE ResetFilter(void);
+		[id(9), helpstring("method SetDims")] SCODE SetDims(LONG x0, LONG x1, LONG y0, LONG y1, LONG z0, LONG z1);
+		[id(10), helpstring("method ShowCCW")] void ShowCCW(VARIANT_BOOL showCell, VARIANT_BOOL showCont, VARIANT_BOOL showWell);
+	};
+	//  Class information for CGraph
+	[ uuid(66FCF56C-26B5-4689-9CC0-A7AA9C78B99B) ]
+	coclass Graph
+	{
+		[default] dispinterface IGraph;
+	};
+};

@@ -1,0 +1,30 @@
+[OPTIONS]
+Compatibility=1.1 or later
+Compiled file=Modelv.chm
+Contents file=Modelv.hhc
+Default Window=HtmlWnd
+Default topic=descr.htm
+Display compile progress=No
+Index file=Modelv.hhk
+Language=0x419 Русский
+
+[WINDOWS]
+HtmlWnd="Справка Model view ","Modelv.hhc","Modelv.hhk","descr.htm",,,,,,0x42120,,0x3006,[271,42,981,566],,,,,,,0
+
+
+[FILES]
+descr.htm
+contact.htm
+param.htm
+prepare.htm
+stat.htm
+files.htm
+in.htm
+out.htm
+roxar.htm
+dim.htm
+work.htm
+params.htm
+
+[INFOTYPES]
+

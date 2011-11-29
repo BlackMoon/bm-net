@@ -1,0 +1,74 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<Title>Подготовка данных</Title>
+<LINK REL="stylesheet" TYPE="text/css" HREF="style.css"></LINK>
+</HEAD>
+<BODY><H1>Подготовка данных</H1>
+<hr>
+<p align=justify>На данном этапе создается файл проекта (*.mvf), содержащий основные параметры для визуализации.
+<p>Этот файл содержит секции: 
+<br><li><a href="in.htm">[in]</a> - входные данные;
+<li><a href="out.htm">[out]</a> - секция используется для сохранения настроек;
+<li><a href="dim.htm">[dim]</a> - геометрические данные объекта;  
+<li><a href="files.htm">[files]</a> - внешние файлы;
+<li><a href="params.htm">[params]</a> - набор параметров объекта (может отсутствовать);
+<li><a href="roxar.htm">[roxar]</a> - гидродинамические параметры объекта (может отсутствовать);
+<li><a href="date.htm">[date]</a> - даты для динамических параметров (может отсутствовать).
+<br><font color=blue>-----------------------------------------------</font></p>
+<p>Состав *.txt файла, описывающего параметр, имеет вид:
+<br><font color=gray><b>min значение<img width=20 height=1></img>max значение
+<br>узел (0, 0)<img width=10 height=1></img>узел(1,0)<img width=10 height=1></img>узел(2,0)<img width=10 height=1></img>…
+<br>узел (0, 1)<img width=10 height=1></img>узел(1,1)<img width=10 height=1></img>узел(2,1)<img width=10 height=1></img>…
+<br>…………………………………………….</b></font>
+<p></p>
+Количество значение в файле - nx * ny * nz + 2(min и max). 
+nz - общее количество слоев.
+<br><font color=blue>-----------------------------------------------</font></p>
+<p>Состав *.txt файла, описывающего геометрические данные, имеет вид:
+<br><font color=gray><b>min значение<img width=20 height=1></img>max значение</b></font>
+<br><i>Узлы кровли</i>
+<br><font color=gray><b>узел (0, 0)<img width=10 height=1></img>узел(1, 0)<img width=10 height=1></img>узел(2, 0)<img width=10 height=1></img>…
+<br>узел (0, 1)<img width=10 height=1></img>узел(1, 1)<img width=10 height=1></img>узел(2, 1)<img width=10 height=1></img>…
+<br>…………………………………………….</b></font>
+<br><i>Узлы подошвы</i>
+<br><font color=gray><b>узел (0, 0)<img width=10 height=1></img>узел(1, 0)<img width=10 height=1></img>узел(2, 0)<img width=10 height=1></img>…
+<br>узел (0, 1)<img width=10 height=1></img>узел(1, 1)<img width=10 height=1></img>узел(2, 1)<img width=10 height=1></img>…
+<br>…………………………………………….</b></font>
+<p></p>
+Количество значение в файле - 2 * nx * ny * nz + 2(min и max). 
+nz - общее количество слоев.
+<br><font color=blue>-----------------------------------------------</font></p>
+<p>Состав *.txt файла, описывающего динамические данные, имеет вид:
+<br><font color=gray><b>MIN значение<img width=20 height=1></img>MAX значение</b></font>
+<br><i>дата 1</i>
+<br><font color=gray><b>min значение<img width=20 height=1></img>max значение
+<br>узел (0, 0)<img width=10 height=1></img>узел(1, 0)<img width=10 height=1></img>узел(2, 0)<img width=10 height=1></img>…
+<br>узел (0, 1)<img width=10 height=1></img>узел(1, 1)<img width=10 height=1></img>узел(2, 1)<img width=10 height=1></img>…
+<br>…………………………………………….</b></font>
+<br><i>дата 2</i>
+<br><font color=gray><b>min значение<img width=20 height=1></img>max значение
+<br>узел (0, 0)<img width=10 height=1></img>узел(1, 0)<img width=10 height=1></img>узел(2, 0)<img width=10 height=1></img>…
+<br>узел (0, 1)<img width=10 height=1></img>узел(1, 1)<img width=10 height=1></img>узел(2, 1)<img width=10 height=1></img>…
+<br>…………………………………………….</b></font>
+<br><i>дата 3</i>
+<br><font color=gray><b>min значение<img width=20 height=1></img>max значение
+<br>узел (0, 0)<img width=10 height=1></img>узел(1, 0)<img width=10 height=1></img>узел(2, 0)<img width=10 height=1></img>…
+<br>узел (0, 1)<img width=10 height=1></img>узел(1, 1)<img width=10 height=1></img>узел(2, 1)<img width=10 height=1></img>…
+<br>…………………………………………….</b></font>
+<p></p>Количество значение в файле - nd *( nx * ny * nz + 2) + 2(MIN и MAX). 
+nd - количество периодов, nz - общее количество слоев
+<br><u>Прим</u>.<font color=gray><b> MIN, MAX</b></font> - глобальные ограничения.
+<br><font color=blue>-----------------------------------------------</font></p>
+<p>Состав *.txt файла, описывающего скважины, имеет вид: 
+<br><font color=gray><b>имя скважины
+<br>х-координата<img width=10 height=1></img>у-координата<img width=10 height=1></img>абс. отметка глубины
+<br>х-координата<img width=10 height=1></img>у-координата<img width=10 height=1></img>абс. отметка глубины
+<br>…………………………………………….
+<br>/</b></font></p>
+<p>/ - обязательный символ
+<br><u>Прим</u>. После имени скважины может стоять символ *, указывающий на нагнетательную скважину.</p>
+
+</p>
+</BODY>
+</HTML>

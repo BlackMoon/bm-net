@@ -1,0 +1,22 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+<Title>Подсчет запасов</Title>
+<LINK REL="stylesheet" TYPE="text/css" HREF="style.css"></LINK>
+</HEAD>
+<BODY><H1>Подсчет запасов</H1>
+<hr>
+<p align=justify>Позволяет рассчитывать запасы и площадь нефтяной залежи по различным слоям/строкам/столбцам сетки.
+<p><img src="stock.gif" width=225 height=297></p>
+<p>Полученный результат может быть сохранен в текстовый файл или передан в другое приложение (напр. MS Excel).</p>
+<p><u>Прим</u>. Для подсчета запасов в файле проекта (см. <a href="prepare.htm">Подготовка данных</a>) должен присутствовать параметр - <b>Запасы (файл stock.txt)</b>!<p>
+<p>Значение параметра <font color=green><i>запасы</i></font> в для каждого узла рассчитывается по формуле:
+<br>z = m * ntog * s * ro * kper.
+<br>z -новый (результирующий) параметр;
+<br>m - пористость, ntog - доля коллектора, s - нефтенасыщенность;
+<br>ro - плотность нефти, kper - пересчетный коэффициент (если kper > 1, то kper = 1 / kper).</p>
+</p>
+</BODY>
+</HTML>
+

@@ -1,0 +1,222 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+<!-- Sitemap 1.0 -->
+</HEAD><BODY>
+<OBJECT type="text/site properties">
+	<param name="FrameName" value="descr.htm">
+	<param name="Window Styles" value="0x800025">
+</OBJECT>
+<UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="&Icirc;&iuml;&egrave;&ntilde;&agrave;&iacute;&egrave;&aring;">
+		<param name="Local" value="descr.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="&Iuml;&icirc;&eth;&yuml;&auml;&icirc;&ecirc; &eth;&agrave;&aacute;&icirc;&ograve;&ucirc;">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="&Iuml;&icirc;&auml;&atilde;&icirc;&ograve;&icirc;&acirc;&ecirc;&agrave; &auml;&agrave;&iacute;&iacute;&ucirc;&otilde;">
+			<param name="Local" value="prepare.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="&Icirc;&ntilde;&iacute;&icirc;&acirc;&iacute;&ucirc;&aring; &ocirc;&oacute;&iacute;&ecirc;&ouml;&egrave;&egrave;">
+			<param name="Local" value="basic.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="&Ntilde;&icirc;&ccedil;&auml;&agrave;&iacute;&egrave;&aring; &iuml;&agrave;&euml;&egrave;&ograve;&eth;&ucirc;">
+			<param name="Local" value="palette.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="&Egrave;&iacute;&ntilde;&ograve;&eth;&oacute;&igrave;&aring;&iacute;&ograve;&ucirc;">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="&Iacute;&agrave;&ntilde;&ograve;&eth;&icirc;&eacute;&ecirc;&egrave;">
+				<param name="Local" value="param.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="&Iuml;&icirc;&auml;&ntilde;&divide;&aring;&ograve; &ccedil;&agrave;&iuml;&agrave;&ntilde;&icirc;&acirc;">
+				<param name="Local" value="stock.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="&Ntilde;&ograve;&agrave;&ograve;&egrave;&ntilde;&ograve;&egrave;&ecirc;&agrave;">
+				<param name="Local" value="stat.htm">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="&Dstrok;&agrave;&aacute;&icirc;&ograve;&agrave; &ntilde; &igrave;&icirc;&auml;&oacute;&euml;&aring;&igrave;">
+			<param name="Local" value="work.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="&Icirc;&ntilde;&iacute;&icirc;&acirc;&iacute;&ucirc;&aring; &icirc;&oslash;&egrave;&aacute;&ecirc;&egrave; &egrave; &ntilde;&iuml;&icirc;&ntilde;&icirc;&aacute;&ucirc; &oacute;&ntilde;&ograve;&eth;&agrave;&iacute;&aring;&iacute;&egrave;&yuml;">
+			<param name="Local" value="mistake.htm">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="&Agrave;&acirc;&ograve;&icirc;&igrave;&agrave;&ograve;&egrave;&ccedil;&agrave;&ouml;&egrave;&yuml;">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="&Icirc;&aacute;&uacute;&aring;&ecirc;&ograve;&ucirc;">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="&Iuml;&eth;&egrave;&euml;&icirc;&aelig;&aring;&iacute;&egrave;&aring;">
+				<param name="Local" value="app.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="&Atilde;&eth;&agrave;&ocirc;">
+				<param name="Local" value="graph.htm">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="&Igrave;&aring;&ograve;&icirc;&auml;&ucirc; &egrave; &ntilde;&acirc;&icirc;&eacute;&ntilde;&ograve;&acirc;&agrave;">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Auto">
+				<param name="Local" value="auto.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="BackColor">
+				<param name="Local" value="backcolor.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="BackView">
+				<param name="Local" value="backview.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="BottomView">
+				<param name="Local" value="bottomview.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="CellColor">
+				<param name="Local" value="cellcolor.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="FrontView">
+				<param name="Local" value="frontview.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="GetGraph">
+				<param name="Local" value="GetGraph.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="LabelColor">
+				<param name="Local" value="labelcolor.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="LeftView">
+				<param name="Local" value="leftview.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="LegendGray">
+				<param name="Local" value="legendgray.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="LegendInv">
+				<param name="Local" value="legendinv.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Open">
+				<param name="Local" value="open.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="ResetFilter">
+				<param name="Local" value="resetfilter.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="ResetView">
+				<param name="Local" value="resetview.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="RightView">
+				<param name="Local" value="rightview.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Save">
+				<param name="Local" value="save.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="SetDims">
+				<param name="Local" value="setdims.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="SetLegend">
+				<param name="Local" value="setlegend.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Show">
+				<param name="Local" value="show.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="ShowCCW">
+				<param name="Local" value="showccw.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="TopView">
+				<param name="Local" value="topview.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="WellCharsetFont">
+				<param name="Local" value="wellcharsetfont.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="WellColor">
+				<param name="Local" value="wellcolor.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="WellColorFont">
+				<param name="Local" value="wellcolorfont.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="WellColorSel">
+				<param name="Local" value="wellcolorsel.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="WellFacenameFont">
+				<param name="Local" value="wellfacenamefont.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="WellH">
+				<param name="Local" value="wellh.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="WellHFont">
+				<param name="Local" value="wellhfont.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="WellI">
+				<param name="Local" value="welli.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="WellLableXOffset">
+				<param name="Local" value="welllabelxoffset.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="WellLabelYOffset">
+				<param name="Local" value="welllabelyoffset.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="WellR1">
+				<param name="Local" value="wellr1.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="WellR2">
+				<param name="Local" value="wellr2.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="ZCoef">
+				<param name="Local" value="zcoef.htm">
+				</OBJECT>
+		</UL>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="&Ecirc;&icirc;&iacute;&ograve;&agrave;&ecirc;&ograve;&ucirc;">
+		<param name="Local" value="contact.htm">
+		</OBJECT>
+</UL>
+</BODY></HTML>

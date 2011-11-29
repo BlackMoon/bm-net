@@ -1,0 +1,84 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<Title>Основные ошибки и способы их устранения</Title>
+<LINK REL="stylesheet" TYPE="text/css" HREF="style.css"></LINK>
+</HEAD>
+<BODY><H1>Основные ошибки и способы их устраниения</H1>
+<hr>
+<p align=justify>Модуль ведет запись ошибок и предупреждений, случившихся во время работы в *.log - файл. 
+<br>Ниже представлен список основных ошибок и способов их устранения.
+<p><table width=100% border=1 cellpadding=4 cellspacing=0>
+<tr align=center>
+<td width=10%>Код</td>
+<td width=45%>Сообщение</td>
+<td width=45%>Способ устранения</td>
+</tr>
+</table></p>
+<p>Критические ошибки</p>
+<table width=100% border=1 cellpadding=4 cellspacing=0>
+<tr align=center>
+<td width=10%><img src="error.gif" width=16 height=16></td>
+<td width=45%>Приложению не удалось запуститься, поскольку <font color=red>файл</font> не был найден. Повторная установка приложения может исправить эту проблему.</td>
+<td width=45%>Установите отсутствующий <font color=red>файл</font></td>
+<tr align=center>
+<td width=10%><img src="error.gif" width=16 height=16></td>
+<td width=45%>Hardlock module not found. (Error: 7).</td>
+<td width=45%>Установите ключ Hardlock</td>
+</tr>
+<tr align=center>
+<td width=10%><img src="error.gif" width=16 height=16></td>
+<td width=45%>Can not open Hardlock driver. (Error: 14).</td>
+<td width=45%>Установите драйвер Hardlock</td>
+</tr>
+<tr align=center>
+<td width=10%><img src="error.gif" width=16 height=16></td>
+<td width=45%>Создание Direct3D завершилось с кодом 0x.. .</td>
+<td width=45%>Отсутствует или выключено ускорение Direct3D. Включите ускорение Direct3D</td>
+</tr>
+<tr align=center>
+<td width=10%><img src="error.gif" width=16 height=16></td>
+<td width=45%>GetAdapterCount() (нет адаптеров) завершилось с кодом 0x.. .</td>
+<td width=45%>Отсутствует или выключено ускорение Direct3D. Включите ускорение Direct3D</td>
+</tr>
+<tr align=center>
+<td width=10%><img src="error.gif" width=16 height=16></td>
+<td width=45%>Создание 3D устройства (HAL) завершилось с кодом 0x.. .</td>
+<td width=45%>Отсутствует или выключено ускорение Direct3D. Включите ускорение Direct3D</td>
+</tr>
+</table>
+<p>Ошибки и предупреждения</p>
+<table width=100% border=1 cellpadding=4 cellspacing=0>
+<tr align=center>
+<td width=10%><img src="warn.gif" width=16 height=16></td>
+<td width=45%>Не удалось открыть <font color=red>файл</font>.</td>
+<td width=45%>Отсутсвует файл палитры параметра (*.bin). <a href="palette.htm">Создайте палитру</a> заново.</td>
+</tr>
+<tr align=center>
+<td width=10%><img src="warn.gif" width=16 height=16></td>
+<td width=45%>Не удалось прочитать значение <font color=red>файл,  [секция], значение</font>.</td>
+<td width=45%>Проверьте правильность заполнения значения <font color=red>файл,  [секция], значение</font> (*.mvf).</td>
+</tr>
+<tr align=center>
+<td width=10%><img src="warn.gif" width=16 height=16></td>
+<td width=45%>Не удалось прочитать <font color=red>файл, №.</font>.</td>
+<td width=45%>Проверьте правильность заполнения значения <font color=red>файл,  №</font> (*.txt).</td>
+</tr>
+<tr align=center>
+<td width=10%><img src="warn.gif" width=16 height=16></td>
+<td width=45%>Не удалось выполнить cbc.exe.</td>
+<td width=45%>Осутствует файл cbc.exe (создание палитры). Повторная установка приложения может исправить эту проблему.</td>
+</tr>
+</tr>
+<tr align=center>
+<td width=10%><img src="warn.gif" width=16 height=16></td>
+<td width=45%>Процесс 0x.. завершился с кодом 0x.. .</td>
+<td width=45%>Установите отсутствующий <font color=red>файл</font></td>
+</tr>
+
+</table>
+
+</p>
+
+</BODY>
+</HTML>

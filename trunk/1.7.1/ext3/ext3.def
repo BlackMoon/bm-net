@@ -1,0 +1,6 @@
+; ext3.def : Declares the module parameters for the DLL.
+
+LIBRARY      "ext3"
+
+EXPORTS
+    ; Explicit exports can go here

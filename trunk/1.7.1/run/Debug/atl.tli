@@ -1,0 +1,17 @@
+﻿// Created by Microsoft (R) C/C++ Compiler Version 14.00.50727.42 (495ddb02).
+//
+// d:\geology\bm.net\run\debug\atl.tli
+//
+// Wrapper implementations for Win32 type library D:\\Geology\\atl\\Debug\\atl.tlb
+// compiler-generated file created 06/06/07 at 11:26:03 - DO NOT EDIT!
+
+#pragma once
+
+//
+// dispinterface Iatl wrapper method implementations
+//
+
+inline HRESULT Iatl::m1 ( long p1, VARIANT_BOOL p2 ) {
+    return _com_dispatch_method(this, 0x1, DISPATCH_METHOD, VT_EMPTY, NULL, 
+        L"\x0003\x000b", p1, p2);
+}

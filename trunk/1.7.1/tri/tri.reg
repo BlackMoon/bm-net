@@ -1,0 +1,15 @@
+REGEDIT
+HKEY_CLASSES_ROOT\.mvf = Model.Application
+HKEY_CLASSES_ROOT\Model.Application = Model view.Application
+HKEY_CLASSES_ROOT\Model.Application\CLSID = {1024D545-C833-40A5-9281-95017A384973}
+HKEY_CLASSES_ROOT\Model.Application\DefaultIcon = "d:\\Geology\\bm.net\\tri\\Release\\Modelv.exe,1"
+HKEY_CLASSES_ROOT\Model.Application\shell\open\command ="d:\\Geology\\bm.net\\tri\\Release\\Modelv.exe \"%1\"
+HKEY_CLASSES_ROOT\Model.Application\shell\print\command ="d:\\Geology\\bm.net\\tri\\Release\\Modelv.exe /p \"%1\"
+HKEY_CLASSES_ROOT\Model.Application\shell\printto\command ="d:\\Geology\\bm.net\\tri\\Release\\Modelv.exe /pt \"%1\" \"%2\" \"%3\" \"%4\"
+
+HKEY_CLASSES_ROOT\Model.Graph = Model.Graph
+HKEY_CLASSES_ROOT\Model.Graph\CLSID ={66FCF56C-26B5-4689-9CC0-A7AA9C78B99B}
+
+
+
+

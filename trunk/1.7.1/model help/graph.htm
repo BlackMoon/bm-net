@@ -1,0 +1,46 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+<Title>Граф</Title>
+<LINK REL="stylesheet" TYPE="text/css" HREF="style.css"></LINK>
+</HEAD>
+<BODY><H1>Граф</H1>
+<hr>
+<p align=justify>Объект <b>Граф</b> предсталяет 3D визуализацию модели. 
+<br>Используя методы и свойства объекта <b>Граф</b> возможно изменять отображение текущего состояния модели.</p> 
+<p><i>Методы</i>
+<br>
+<br><a href="backview.htm">BackView</a>
+<br><a href="bottomview.htm">BottomView</a>
+<br><a href="frontview.htm">FrontView</a>
+<br><a href="leftview.htm">LeftView</a>
+<br><a href="resetfilter.htm">ResetFilter</a>
+<br><a href="resetview.htm">ResetView</a>
+<br><a href="rightview.htm">RightView</a>
+<br><a href="setdims.htm">SetDims</a>
+<br><a href="showccw.htm">ShowCCW</a>
+<br><a href="topview.htm">TopView</a>
+</p>
+<p><b>Пример</b>.
+<br>Использование объекта <b>Граф</b>.
+<br>
+<font style="font-family: 'Courier New';" face="courier new">
+<br>CApplication app;
+<br>app.CreateDispatch("Model.application");
+<br>app.Show();
+<br>if (app.Open(filename))
+<br>{
+<br><img src="px1.gif" width=20 height=1>LPDISPATH pdisp = app.GetGraph();
+<br><img src="px1.gif" width=20 height=1>if (pdisp)
+<br><img src="px1.gif" width=20 height=1>{
+<br><img src="px1.gif" width=40 height=1>CGraph graph;
+<br><img src="px1.gif" width=40 height=1>graph.AttachDispatch(pdisp);
+<br><img src="px1.gif" width=40 height=1>graph.SetCCW(false, false, true);
+<br><img src="px1.gif" width=20 height=1>}
+<br>}
+<br></font>
+</p>
+
+</BODY>
+</HTML>
