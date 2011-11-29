@@ -1,0 +1,28 @@
+[in]
+title=Ботвинское, С1бб (Запад)
+history=0
+
+[out]
+bin=1
+
+[dim]
+xmin=81025
+ymin=92625
+nx=76
+ny=104
+xstep=25
+ystep=25
+layer=9/ 
+
+[files]
+cont=cont.txt
+struct=zcorn.txt
+wells=well.txt 
+
+[params]
+pcount=5
+p0=Доля коллектора=ntog.txt
+p1=Нефтенасыщенность=swat.txt
+p2=Пористость=m.txt
+p3=x_Проницаемость=k.txt
+p4=Запасы=stock.txt

@@ -1,0 +1,29 @@
+[in]
+title=Сакадинское, С1тр
+history=0
+
+[out]
+bin=1
+
+[dim]
+xmin=9630475
+ymin=5906525
+nx=55
+ny=45
+xstep=25
+ystep=25
+layer=20/ 
+
+[files]
+cont=cont.txt
+struct=str.txt
+wells=well.txt 
+
+[params]
+pcount=6
+p0=Доля коллектора=ntog.txt
+p1=Нефтенасыщенность=swat.txt
+p2=Пористость=m.txt
+p3=x_Проницаемость=k.txt
+p4=z_Проницаемость=kz.txt
+p5=Запасы=stock.txt
